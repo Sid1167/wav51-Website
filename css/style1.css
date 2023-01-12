@@ -1,0 +1,332 @@
+    *
+        {
+            padding:0;
+            margin:0;
+            font-family:system-ui;
+        }
+        body{
+            background-image: url('body-background.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #sample
+        {
+            color:rgb(255, 255, 255);
+            font-size:60px;
+            text-transform: uppercase;
+            position:absolute;
+            top:470px;
+            left:525px; 
+        }
+        #coming-soon
+        {
+            color:rgb(255, 255, 255);
+            font-size:20px;
+            text-transform: uppercase;
+            position:absolute;
+            top:610px;
+            left:685px;   
+        }
+        #sample-pack
+        {
+            color:rgb(255, 255, 255);
+            font-size:20px;
+            text-transform: uppercase;
+            position:absolute;
+            top:410px;
+            left:676px;   
+        }
+        .bg1
+        {
+            height:"90%";
+            position:absolute;
+            top:-110px;
+            left:-30px;
+        }
+        .line
+        {
+            position:absolute;
+            top:79px;
+            left:190;
+            width:74%;
+            opacity:0.5;
+        }
+        .line1
+        {
+            position:absolute;
+            top:159px;
+            left:190;
+            width:74%;
+            opacity:0.5;
+        }
+        .socials
+        {
+            color:white;
+            font-family:Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-weight: 400;
+            letter-spacing: .4em;
+            padding-left: 6px;
+            font-size: 13px;
+            position:absolute;
+            top: 29px;
+            left:199px;          
+        }
+        .icons{
+            color: #777777;
+            font-size:21px;
+        }
+        .facebook
+        {
+            position:absolute;
+            top: 53px;
+            left:202px;
+        }
+        .twitter
+        {
+            font-size:24px;
+            position:absolute;
+            top: 50px;
+            left:225px;
+        }
+        .instagram
+        {
+            font-size:25px;
+            position:absolute;
+            top: 49px;
+            left:258px;
+        }
+        .youtube
+        {
+            font-size:24px;
+            position:absolute;
+            top: 50px;
+            left:295px;
+        }
+        .logo{
+            position:absolute;
+            top: 8px;
+            left:700px;
+        }
+        .search
+        {
+            color:white;
+            position:absolute;
+            top: 42px;
+            left:1222px;   
+        }
+        .cart{
+            color:white;
+            position:absolute;
+            top: 42px;
+            left:1269px;   
+        }
+        .home-btn
+        {
+            display: block;
+            padding: 9px 50px 9px 12px;
+            font-size: 19px;
+            line-height: 1.4;
+            font-weight: 600;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            position:absolute;
+            top: 118px;
+            left:400px;
+        }
+/*      .home-btn:hover 
+        {
+            color:#777777;
+        }*/
+        .blog-btn
+        {
+            display: block;
+            padding: 9px 50px 9px 12px;
+            font-size: 19px;
+            line-height: 1.4;
+            font-weight: 600;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            position:absolute;
+            top: 118px;
+            left:540px;
+        }
+        .service-btn
+        {
+            display: block;
+            padding: 9px 50px 9px 12px;
+            font-size: 19px;
+            line-height: 1.4;
+            font-weight: 600;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            position:absolute;
+            top: 118px;
+            left:670px;
+        }
+        .store-btn
+        {
+            display: block;
+            padding: 9px 50px 9px 12px;
+            font-size: 19px;
+            line-height: 1.4;
+            font-weight: 600;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            position:absolute;
+            top: 116px;
+            left:910px;
+        }
+        .user
+        {
+            position:absolute;
+            top: 121px;
+            left:1170px;
+        }
+        #Menu
+        {
+            position:absolute;
+            top:-2;
+            left:75px;
+        }
+        .myform /* Latest Post(Music) or Positive Review */
+        {
+            width:100%;
+            height:60%;
+            background-color:rgb(255, 255, 255);
+            position:absolute;
+            top:850px;
+        }
+        .about
+        {
+            width:100%;
+            height:550px;
+            background-color:rgb(255, 255, 255);
+            position:absolute;
+            top:1290px;
+        }
+
+        .about-bg-image
+        {
+            width:100%;
+            height:160%;
+            position:absolute;
+            top: -120px;
+            opacity:0.9
+        }
+        .about-head-1
+        {
+            color:rgb(255, 255, 255);
+            font-size:50px;
+            text-transform: uppercase;
+            position:absolute;
+            top: 100px;
+            left:312px;
+        }
+        .about-head-2
+        {
+            color: #af2727;
+            font-size:50px;
+            text-transform: uppercase;
+            position:absolute;
+            top: 155px;
+            left:312px;  
+        }
+        .about-head-3
+        {
+            color: #ffffff;
+            font-size:50px;
+            text-transform: uppercase;
+            position:absolute;
+            top: 155px;
+            left:495px;  
+        }
+        .line-5
+        {
+            color:gray;
+            position:absolute;
+            top:1480px;
+            left:190;
+            width:7%;
+            opacity:0.5;
+        }
+        .about-info
+        {
+            color:white;
+            font-size: 17px;
+            position:absolute;
+            top:250px;
+            left:185;
+        }
+        #product-head
+        {
+            color:rgb(255, 255, 255);
+            font-size: 40px;
+            position:absolute;
+            top:40px;
+            left:600px;  
+        }
+        #card-group
+        {
+            width:250px;
+        }
+        .block
+        {
+            width:100%;
+            height:70%;
+            background-color:rgb(0, 0, 0);
+            position:absolute;
+            top: 1751px;  
+        }
+        #card-group
+        {
+            position:absolute;
+            top:180px;
+            left:230px;
+        }
+        #card-group-1
+        {
+            position:absolute;
+            top:180px;
+            left:510px;
+        }
+        #card-group-2
+        {
+            position:absolute;
+            top:180px;
+            left:780px;
+        }
+        #card-group-3
+        {
+            position:absolute;
+            top:180px;
+            left:1050px;
+        }
+        .dropdown{
+            width: 100%;
+            display: none;
+        }
+         .service-btn:hover .dropdown{
+            display: block;
+            position:absolute;
+            top: 60px;
+            left:-5px;
+        }
+        #foot
+        {
+            width:100%;
+            height:30%;
+            background-color:rgb(0, 0, 0);
+            position:absolute;
+            top: 2305px; 
+            
+        }
+        .foot-content
+        {
+            position:absolute;
+            bottom: 9305px;
+            color:white;
+        }
